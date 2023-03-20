@@ -3,14 +3,13 @@
 #include <time.h>
 
 /**
- *  main - Entry point
+ * main - Entry point
  *
- *  Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
-
+{
 	char str;
-
 
 	for (str = 'a'; str <= 'z'; str++)
 	{
@@ -21,5 +20,5 @@ int main(void)
 		putchar(str);
 	}
 	putchar('\n');
-	return (0); 
+	return (0);
 }
