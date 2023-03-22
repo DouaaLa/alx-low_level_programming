@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * _islower - Entry point
+ * _islower - dqzdqzdqzdqzd
+ * @c: Description of parameter x
  *
- * Return: Always 0 (Success)
+ * Description: ddzqdqzd
+ * section header: Section description)*
+ * Return: Description of the returned value
  */
 int _islower(int c)
 {
@@ -11,7 +14,7 @@ int _islower(int c)
 
 	for (i = 97; i <= 122; i++)
 	{
-		if (c == i )
+		if (c == i)
 			return (1);
 	}
 	return (0);
