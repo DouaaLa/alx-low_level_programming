@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * isalapha - abcdABCD
+ * _isalpha - dqzdqzdqzdqzd
  * @c: Description of parameter x
  *
- * Decription: isalpha function
+ * Description: ddzqdqzd
  * section header: Section description)*
- * Return: On success 1
- * On error , 0 is returned
+ * Return: Description of the returned value
  */
 int _isalpha(int c)
 {
