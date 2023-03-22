@@ -2,8 +2,10 @@
 
 /**
  * isalapha - abcdABCD
- * @c: lower or upper case character
+ * @c: Description of parameter x
  *
+ * Decription: isalpha function
+ * section header: Section description)*
  * Return: On success 1
  * On error , 0 is returned
  */
