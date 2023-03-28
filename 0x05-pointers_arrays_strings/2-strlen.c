@@ -8,9 +8,12 @@
  */
 int _strlen(char *s)
 {
-	s = (int *)malloc(sizeof(char));
-	if (s == NULL)
-		exit(0);
-	else
-		return (*s);
+	int cpt;
+
+	cpt = 0;
+	while (s[cpt]!= '\0')
+	{
+		cpt++;
+	}
+	return (cpt);
 }
