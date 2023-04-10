@@ -2,12 +2,13 @@
 
 /**
  * _puts - check the code
- * @str: variable
+ * @s: variable
  * Return: void.
  */
 void _puts(char *s)
 {
 	int i;
+
 	for (i = 0; *(s + i) != '\0'; i++)
 	{
 		_putchar(*(s + i));
