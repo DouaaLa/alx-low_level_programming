@@ -20,8 +20,7 @@ char *create_array(unsigned int size, char c)
 	if (arr_s == NULL)
 		return (NULL);
 	for (i = 0; i < size; i++)
-	{
 		*(arr_s + i) = c;
-	}
+	*(arr_s + i) = '\0';
 	return (arr_s);
 }
