@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- * main - add numbers
+ * main - prog that adds numbers
  * @argc: integer
  * @argv: character
- * Return : 0
+ * Return: 0 and 1 if the arg is not number
  */
 int main(int argc, char *argv[])
 {
